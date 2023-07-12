@@ -1,0 +1,20 @@
+import numpy as np
+
+narray = np.array([5, 10, 30, 50, 60, 65, 80])
+print('array:\t\t', narray)
+print('2\'th element:\t', narray[2])
+print('-1\'th element:\t', narray[-1])
+print('1:4 elements:\t', narray[1:4])
+print(':3 elements:\t', narray[:3])
+print(':: elements:\t', narray[::])
+print('::-1 elements:\t', narray[::-1])
+
+array2 = np.array([[5, 10, 30], [50, 60, 65], [80, 100, 108]])
+print('array2:')
+print(array2)
+print('array2[0]:\t', array2[0])
+print('array2[0,1]:\t', array2[0,1])
+print('array2[:,2]:\t', array2[:,2])
+print('array2[:,0:2]:\n', array2[:,0:2])
+print('array2[-1,:]:\t', array2[-1,:])
+print('array2[:2,:2]', array2[:2,:2])
